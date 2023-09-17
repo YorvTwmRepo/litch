@@ -34,15 +34,15 @@ proc drawInfo*(asciiArt: bool) =
     # icon for demonstrate colors
 
   const  # categories
-    userCat   = " usr   │ "  # recomended: " user   │ "
-    hnameCat  = " host  │ "  # recomended: " hname  │ "
-    distroCat = " dist  │ "  # recomended: " distro │ "
-    kernelCat = " krnl  │ "  # recomended: " kernel │ "-
-    uptimeCat = " up    │ "  # recomended: " uptime │ "
-    shellCat  = " sh    │ "  # recomended: " shell  │ "
-    pkgsCat   = " pkgs  │ "  # recomended: " pkgs   │ "
-    ramCat    = " mem   │ "  # recomended: " memory │ "
-    colorsCat = " col   │ "  # recomended: " colors │ "
+    userCat   = " usr    │ "  # recomended: " user   │ "
+    hnameCat  = " host   │ "  # recomended: " hname  │ "
+    distroCat = " dist   │ "  # recomended: " distro │ "
+    kernelCat = " krnl   │ "  # recomended: " kernel │ "-
+    uptimeCat = " up     │ "  # recomended: " uptime │ "
+    shellCat  = " sh     │ "  # recomended: " shell  │ "
+    pkgsCat   = " pkgs   │ "  # recomended: " pkgs   │ "
+    ramCat    = " mem    │ "  # recomended: " memory │ "
+    colorsCat = " col    │ "  # recomended: " colors │ "
 
   let  # all info about system
     userInfo     = getUser()          # get user through $USER env variable
