@@ -2,7 +2,7 @@
 
 <img src="https://cdn.discordapp.com/attachments/955362477137362954/996769449480826971/2022-07-13_16-25.png" width="350px">
 
-# `NiTch`
+# `LiTch`
 
 <h3>
   incredibly fast system fetch written in <code>nim👑</code>
@@ -25,10 +25,10 @@
 
 <img src="https://media.discordapp.net/attachments/955362477137362954/997839005460725841/2022-07-16_15-15_1.png" width="42%" align="right">
 
-`nitch` is a small and incredibly fast system fetch written fully in `nim👑` without any dependencies, on my pc
+`litch` is a small and incredibly fast system fetch written fully in `nim👑` without any dependencies, on my pc
 it executes in around 1.70 miliseconds.
 
-The source code of `nitch` is highly documented and I hope it will act as a learning resource for nim
+The source code of `litch` is highly documented and I hope it will act as a learning resource for nim
 and linux systems architecture
 
 If anything in the source code is unclear or is lacking in its explanation, open an issue. Sometimes you get too close to something and you fail to see the "bigger picture"!
@@ -60,7 +60,7 @@ flags:
 <br>
 
 # Configuration ⚙️
-### `nitch` is configured by changing the source code
+### `litch` is configured by changing the source code
 ### `src/funcs/drawing.nim` - config file
 ```nim
 import std/terminal       # import standard terminal lib
