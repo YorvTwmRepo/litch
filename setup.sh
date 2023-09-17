@@ -1,7 +1,7 @@
 #!/bin/sh
 
 linkNerd="https://github.com/YorvTwmRepo/litch/releases/download/0.1.6/nitchNerd"
-linkNoNerd="https://github.com/YorvTwmRepo/litch/releases/download/0.1.6/nitchNoNerd"
+linkNoNerd="https://github.com/YorvTwmRepo/litch/releases/download/litch/litchNoNerd"
 
 sudo rm -fv /usr/local/bin/nitch
 
