@@ -19,8 +19,8 @@ case $symbolsYN in
 
   "n")
     wget $linkNoNerd
-    chmod +x nitchNoNerd
-    sudo mv nitchNoNerd /usr/local/bin/litch
+    chmod +x litchNoNerd
+    sudo mv litchNoNerd /usr/local/bin/litch
   ;;
 esac
 
