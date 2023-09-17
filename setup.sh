@@ -14,13 +14,13 @@ case $symbolsYN in
   "y")
     wget $linkNerd
     chmod +x nitchNerd
-    sudo mv nitchNerd /usr/local/bin/nitch
+    sudo mv nitchNerd /usr/local/bin/litch
   ;;
 
   "n")
     wget $linkNoNerd
     chmod +x nitchNoNerd
-    sudo mv nitchNoNerd /usr/local/bin/nitch
+    sudo mv nitchNoNerd /usr/local/bin/litch
   ;;
 esac
 
