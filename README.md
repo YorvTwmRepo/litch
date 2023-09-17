@@ -150,11 +150,11 @@ proc drawInfo*() =
 
 ### 1) clone repo
 ```fish
-git clone https://github.com/unxsh/nitch.git
+git clone https://github.com/YorvTwmRepo/litch.git
 ```
-### 2) change dir to `nitch`
+### 2) change dir to `litch`
 ```fish
-cd nitch/
+cd litch/
 ```
 
 ### 3) build program with `nimble`
@@ -169,8 +169,8 @@ After that you will get a ready-made binary file in the root directory of the pr
 ```fish
 nitch
   ├── LICENSE
-  ├── nitch
-  ├── nitch.nimble
+  ├── litch
+  ├── litch.nimble
   ├── README.md
   ├── src
   │   ├── assets
@@ -183,7 +183,7 @@ nitch
   │   │   ├── packages
   │   │   │   └── getPacmanPkgs.nim
   │   │   └── perform.nim
-  │   ├── nitches
+  │   ├── litches
   │   │   ├── getDistro.nim
   │   │   ├── getHostname.nim
   │   │   ├── getKernel.nim
@@ -192,8 +192,8 @@ nitch
   │   │   ├── getShell.nim
   │   │   ├── getUptime.nim
   │   │   └── getUser.nim
-  │   ├── nitch.nim
-  │   └── nitch.nim.cfg
+  │   ├── litch.nim
+  │   └── litch.nim.cfg
   └── templates
       ├── cfgParser
       ├── cfgParser.nim
